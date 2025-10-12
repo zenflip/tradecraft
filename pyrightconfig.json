@@ -7,7 +7,7 @@
     "."
   ],
   "extraPaths": [
-    "./mylib"
+    "./app"
   ],
   "venv": ".venv",
   "venvPath": "."
