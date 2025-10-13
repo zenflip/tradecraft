@@ -1,7 +1,7 @@
-# Concept: When to use high & low leverage
+# Stop losing everything: The truth about leverage and time
 
 ### Are you using high (10X+) leverage for *everything*?
-Stop it right now. Seriously.
+Stop it right now. *Seriously.*
 You're going to lose *all* your money over time.
 Read below to find out why.
 
