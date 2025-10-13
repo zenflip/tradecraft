@@ -73,6 +73,10 @@ Use low or no leverage in these scenarios:
    - Price has already moved significantly
    - Risk of whipsaw is high
 
+![Market volatility comparison: Uptober rally vs Trump tariff impact](img/high-and-low-leverage/uptober-vs-trump-tarriff.jpg)
+
+*Different market events create vastly different volatility profiles. After major moves or during event-driven volatility, lower leverage provides the breathing room needed to survive whipsaws.*
+
 ### Why It Works
 
 - **Survival** - You can withstand being wrong multiple times
