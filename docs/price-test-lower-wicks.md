@@ -2,7 +2,11 @@
 
 ## What is a "test and hold"?
 
-When price enters a support zone (like 110–111k), you don't want to buy the instant it touches. You want evidence that buyers are defending that level.
+When price enters a support zone , you don't want to buy the instant it touches. You want evidence that buyers are defending that level.
+
+![ETHUSD 15m lower wicks example](img/price-test-lower-wicks/1.png)
+
+![Zoomed in ETHUSD 15m lower wicks example](img/price-test-lower-wicks/2.png)
 
 ### Three key components
 
