@@ -35,6 +35,87 @@ Watch for candles that probe down into support, get rejected hard, and close hig
 
 **That's when it's worth entering your 2× long** — not while it's still free-falling into that zone.
 
+## Range context: Where are the wicks appearing?
+
+![Recent swing lows](img/price-test-lower-wicks/3.png)
+
+The same lower wick pattern has completely different meanings depending on where it appears in the recent price structure. This is the difference between high-probability reversals and false signals.
+
+### The range context problem
+
+**Without range context:**
+- Lower wicks could appear anywhere (mid-range, top, random)
+- Equal technical signal, but vastly different probability outcomes
+- You're just pattern-matching without strategic context
+
+**With range context:**
+- Lower wicks at **bottom of range** = buyers defending key level (bullish reversal)
+- Lower wicks at **top of range** = likely failed breakout, continuation down (bearish)
+- Same pattern, completely different meaning
+
+### Where to look for high-probability setups
+
+Lower wicks are most significant when they appear:
+
+**Near recent swing lows**
+- Look back 5-7 days for crypto (3-4 weeks for stocks)
+- This is your key support level
+- Lower wicks testing this level = buyers defending structure
+
+**At the bottom 25% of the weekly range**
+- Defines current market structure
+- Bottom quarter = reversal territory
+- Top quarter = potential exhaustion or failed breakout
+
+**At previously tested support levels**
+- Multiple tests = stronger support
+- First test = higher risk, needs more confirmation
+- Third+ test with volume decline = accumulation
+
+### Practical lookback periods
+
+For the 6H timeframe swing trading approach:
+
+**Primary lookback: 5-7 days (120-168 hours)**
+- Captures recent swing structure
+- Identifies key support/resistance zones
+- 20-28 candles on 6H chart
+
+**Secondary context: Weekly range**
+- Where are we in this week's high-low range?
+- Bottom 25% = reversal zone
+- Above 50% = different context
+
+**Avoid: 24-hour range**
+- Too short for swing decisions
+- Creates noise on 6H timeframe
+- Better for intraday/scalping
+
+### Distance from swing low matters
+
+**Within 2-5% of recent swing low:**
+- Very relevant support test
+- High probability setup
+- Strong buyer interest expected
+
+**Within 10% of recent swing low:**
+- Somewhat relevant
+- Needs additional confirmation
+- Watch for divergence signals
+
+**Beyond 10% from swing low:**
+- Different context entirely
+- May be mid-range consolidation
+- Lower probability reversal
+
+### Key question before entry
+
+Before entering on lower wicks, always ask:
+
+**"Where is the recent swing low, and how close are we to it?"**
+
+If you can't identify a clear recent low being tested, the lower wicks are likely mid-range noise, not a reversal signal.
+
 ## How many tests signify strength?
 
 You're looking for evidence of accumulation, not just a random bounce.
