@@ -326,7 +326,53 @@ But you're not using 10X leverage—you're using 3X:
 - Effective margin used: $1,667 / 3 = $555.67
 - Remaining margin available: Your choice not to use full leverage
 
-**The key insight: You control your actual leverage through position size, not by what the platform allows.** Kraken offering 10X doesn't mean you must use 10X.
+**The key insight**: You control your actual leverage through position size, not by what the platform allows. Kraken offering 10X doesn't mean you must use 10X.
+
+### Kraken Pro trading fees
+
+Kraken uses a volume-based fee structure with maker/taker fees:
+
+| 30-day volume | Maker fee % | Taker fee % |
+| :--- | :--- | :--- |
+| $0 USD | 0.25% | 0.40% |
+| $10,001 USD | 0.20% | 0.35% |
+| $50,001 USD | 0.14% | 0.24% |
+| $100,001 USD | 0.12% | 0.22% |
+| $250,001 USD | 0.10% | 0.20% |
+| $500,001 USD | 0.08% | 0.18% |
+| $1,000,001 USD | 0.06% | 0.16% |
+| $2,500,001 USD | 0.04% | 0.14% |
+| $5,000,001 USD | 0.02% | 0.12% |
+| $10,000,001 USD | 0.00% | 0.10% |
+
+**For most traders**: You'll pay 0.25% maker / 0.40% taker fees (lowest tier).
+
+**Maker vs Taker**:
+- **Maker**: Limit orders that add liquidity (enter below market for longs, above for shorts)
+- **Taker**: Market orders or limit orders that cross the spread (immediate execution)
+
+**Round-trip cost** (entry + exit with taker fees): 0.40% + 0.40% = **0.80% total**
+
+### Accounting for fees in position sizing
+
+The basic formula assumes perfect execution. In reality, fees reduce your effective gains and increase your effective losses.
+
+**Fee impact on a $10,000 position**:
+- Entry fee (taker): $10,000 × 0.40% = **$40**
+- Exit fee (taker): $10,000 × 0.40% = **$40**
+- Total round-trip fees: **$80**
+
+**Adjusting for fees in risk calculation**:
+
+If you want your actual risk to be $150 after fees:
+```
+Adjusted Risk = Desired Risk + Expected Fees
+Adjusted Risk = $150 + $80 = $230
+```
+
+For more conservative sizing, use $230 in your position size formula instead of $150. This ensures after paying fees, your stop loss still represents only 0.5% actual account loss.
+
+**Practical approach**: Most traders don't adjust position size for fees. Instead, they accept that a "1% risk" trade actually risks ~1.2-1.3% after fees on a typical setup. If you're being very precise, add 0.2-0.3% buffer to your risk tolerance.
 
 ### Risk management on Kraken
 
