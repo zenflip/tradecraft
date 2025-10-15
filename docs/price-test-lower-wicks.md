@@ -166,6 +166,80 @@ The most powerful test-and-hold setups occur when the current swing low is HIGHE
 
 When you see lower wicks forming at a higher low than the previous swing low, and price recovers quickly, you're witnessing institutional accumulation in real-time. This is your highest-confidence entry signal.
 
+## The reverse pattern: upper wicks at resistance
+
+![Upper wicks at resistance](img/price-test-lower-wicks/4.png)
+
+Everything we've discussed about lower wicks at support works identically in reverse for upper wicks at resistance — they signal high-probability short opportunities.
+
+### Test and reject at resistance
+
+Just as lower wicks show buyers defending support, **upper wicks show sellers defending resistance**.
+
+**The rejection pattern:**
+- Price rallies into a resistance zone
+- Instead of breaking through cleanly, it gets rejected with upper wicks
+- Each probe higher fails to close above the level
+- That's sellers stepping in and pushing price back down
+
+**Key components for shorting:**
+
+**1. Upper wicks at resistance**
+- Long upper wicks = buyers tried to push higher but got rejected
+- Small candle bodies = indecision at the level
+- Multiple attempts = resistance is being defended
+
+**2. Range context matters (in reverse)**
+- Upper wicks at **top of range** = sellers defending key level (bearish reversal)
+- Upper wicks at **bottom of range** = likely failed breakdown, continuation up (bullish)
+- Same pattern, opposite context
+
+**3. Lower high vs equal high**
+- Lower high = downtrend continues (each top is weaker)
+- Equal high (double top) = 50/50, needs confirmation
+- Fast rejection from lower high = 70-80% probability short setup
+
+### The high-probability short setup
+
+**What makes it powerful:**
+
+**Structure shift**
+- Higher highs = uptrend continues
+- Lower high rejected fast = uptrend is breaking
+- Sellers willing to defend a lower price than before
+
+**Seller conviction**
+- Supply overwhelming demand at resistance
+- Market not willing to revisit previous highs
+- Buyers absorbed at lower levels
+
+**Fast rejection amplifies signal**
+- Quick spike up = stop hunt or liquidity grab
+- Fast rejection = strong distribution by institutions
+- Speed shows urgency to sell the asset
+- Weak hands trapped, strong hands distributing
+
+### Entry confidence for shorts
+
+| Setup type | Probability | Signal strength |
+| :--- | :--- | :--- |
+| Upper wicks at random levels | Low | Pattern without context |
+| Upper wicks at equal high (double top) | 50/50 | Needs confirmation |
+| Upper wicks at lower high (slow rejection) | 60-70% | Moderate bearish |
+| Upper wicks at lower high + fast rejection | 70-80% | Strong bearish ⭐ |
+
+### Practical short entry approach
+
+**Before shorting upper wicks, ask:**
+
+**"Where is the recent swing high, and how close are we to it?"**
+
+- Within 2-5% of recent swing high = very relevant resistance test
+- At top 25% of weekly range = reversal territory
+- Lower high with fast rejection = highest probability setup
+
+**The mirror pattern works both ways. Master the logic at support, then simply reverse it for resistance.**
+
 ## How many tests signify strength?
 
 You're looking for evidence of accumulation, not just a random bounce.
