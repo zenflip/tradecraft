@@ -134,26 +134,21 @@ Ask yourself these questions:
 
 ## Risk management rules
 
-### Position sizing formula
+### Position sizing
 
 **Maximum risk per trade: 1-2% of total capital**
 
-For high leverage:
+Use the position sizing formula to calculate exact position sizes for any leverage level:
+
 ```
 Position Size = (Account Size × Risk %) / (Stop Loss % × Leverage)
 ```
 
-Example:
-- Account: $10,000
-- Risk: 1% ($100)
-- Stop loss: 0.5%
-- Leverage: 10X
-- **Position size: \$10,000 × 1% / (0.5% × 10) = \$2,000**
+**Example with 10X leverage**:
+- Account: $10,000, Risk: 1% ($100), Stop: 0.5%, Leverage: 10X
+- Position size: $10,000 × 1% / (0.5% × 10) = $2,000
 
-For low leverage (spot or 2X):
-```
-Position Size = More flexible, but still respect stop losses
-```
+For comprehensive position sizing guidance including worked examples, common mistakes, and advanced considerations, see [position-sizing-formula.md](position-sizing-formula.md).
 
 ### Universal rules
 
