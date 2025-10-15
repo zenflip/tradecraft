@@ -116,6 +116,56 @@ Before entering on lower wicks, always ask:
 
 If you can't identify a clear recent low being tested, the lower wicks are likely mid-range noise, not a reversal signal.
 
+### Higher low vs equal low: The probability multiplier
+
+The most powerful test-and-hold setups occur when the current swing low is HIGHER than the previous one. This is one of the strongest bullish signals you can get.
+
+**What makes a higher low so powerful:**
+
+**Structure shift**
+- Lower lows = downtrend continues (each bottom is deeper)
+- Higher low = downtrend is breaking (buyers stepping in earlier)
+- This is literally the definition of trend reversal beginning
+
+**Buyer conviction**
+- Buyers willing to defend a higher price than before
+- Shows increasing demand and support
+- Market not willing to revisit previous lows
+- Supply has been absorbed at higher levels
+
+**Fast recovery amplifies the signal**
+- Quick drop = stop hunt or liquidity grab
+- Fast recovery = strong absorption by institutional buyers
+- Speed of recovery shows urgency to own the asset
+- Weak hands shaken out, strong hands accumulating
+
+**Failed breakdown**
+- Market tried to go lower (the fast drop)
+- Couldn't sustain it (the fast recovery)
+- Failed moves in one direction = fuel for opposite direction
+- Trapped shorts need to cover
+
+### Entry confidence hierarchy
+
+**From weakest to strongest:**
+
+| Setup type | Probability | Signal strength |
+| :--- | :--- | :--- |
+| Lower wicks at random levels | Low | Pattern without context |
+| Lower wicks at equal low (double bottom) | 50/50 | Needs confirmation |
+| Lower wicks at higher low (slow recovery) | 60-70% | Moderate bullish |
+| Lower wicks at higher low + fast recovery | 70-80% | Strong bullish ⭐ |
+
+**The higher low with fast recovery setup:**
+- Confirms trend change (structure breaking)
+- Shows buyer evolution (willing to pay more)
+- Failed breakdown = trapped shorts must cover
+- Fresh supply absorbed quickly = path of least resistance is up
+
+**A higher low with fast recovery has 2-3× the probability of success compared to testing an equal or lower low.**
+
+When you see lower wicks forming at a higher low than the previous swing low, and price recovers quickly, you're witnessing institutional accumulation in real-time. This is your highest-confidence entry signal.
+
 ## How many tests signify strength?
 
 You're looking for evidence of accumulation, not just a random bounce.
