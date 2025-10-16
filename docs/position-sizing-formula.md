@@ -280,29 +280,6 @@ Kraken Pro offers up to 10X margin on many pairs, but you don't have to use all 
 
 **The answer**: Use 3X in your position sizing formula, not 10X. The platform's maximum leverage is irrelevant—you choose your actual leverage by your position size.
 
-### Worked example: 3X self-imposed limit
-
-**Setup**:
-- Account size: $10,000
-- Risk per trade: 1% ($100)
-- Entry: $100,000 (BTC)
-- Stop loss: $98,000 (2% below entry)
-- Kraken allows: 10X margin
-- Your chosen leverage: 3X maximum
-
-**Calculation**:
-```
-Position Size = ($10,000 × 1%) / (2% × 3)
-Position Size = $100 / 6%
-Position Size = $1,667
-```
-
-**Execution on Kraken**:
-- Open a margin position for $1,667 worth of BTC
-- You're using 3X leverage effectively ($1,667 position with ~$556 margin)
-- If stopped out at $98,000, you lose exactly $100 (1% of account)
-- Your actual leverage used: 3X (not the 10X maximum available)
-
 ### Why use less than maximum leverage?
 
 **Breathing room**: A 3X position can handle more volatility than 10X without liquidation.
@@ -315,18 +292,72 @@ Position Size = $1,667
 
 ### How Kraken margin works
 
-When you open a margin position on Kraken:
+**Clear example:**
 
-**Your margin requirement** = Position Size / Maximum Leverage Available
+You have a $10,000 account but only want to put $1,000 to work at 3X effective leverage (keeping $9,000 safe):
 
-With $1,667 position and 10X available:
-- Margin required: $1,667 / 10 = $166.70
+**Option 1: What most people think (WRONG)**
+- "I'll open a $1,000 position (10X platform requires $100 margin)"
+- Margin required at 10X: $1,000 / 10 = $100
+- Actual leverage: $1,000 / $1,000 allocated = 1X (not 3X!)
+- You're using spot leverage, not 3X
 
-But you're not using 10X leverage—you're using 3X:
-- Effective margin used: $1,667 / 3 = $555.67
-- Remaining margin available: Your choice not to use full leverage
+**Option 2: What actually works (RIGHT)**
+- "I want $1,000 at 3X leverage, so my position should be $1,000 × 3 = $3,000"
+- Margin required at 10X: $3,000 / 10 = $300
+- Actual leverage: $3,000 / $1,000 allocated = 3X ✓
+- This is true 3X leverage on your allocated capital
 
-**The key insight**: You control your actual leverage through position size, not by what the platform allows. Kraken offering 10X doesn't mean you must use 10X.
+**Breaking it down:**
+- Margin required: $300 (what Kraken takes from your account)
+- Position size: $3,000 (what you control in the market)
+- Effective leverage: 3X (on your $1,000 allocation)
+- Platform leverage: 10X (what Kraken offers)
+
+**The math that matters:**
+- Effective Leverage = Position Size / Capital You're Allocating
+- NOT: Effective Leverage = Platform Leverage / Some Number
+
+If the price moves 1% against your position:
+- Option 1 loss: $1,000 × 1% = $10 (1% of your $1,000 allocation)
+- Option 2 loss: $3,000 × 1% = $30 (3% of your $1,000 allocation)
+
+Option 2 gives you the 3X leverage you wanted on your $1,000. Option 1 is just a spot position using no leverage.
+
+**Key insight**: Your $3,000 position only requires $300 margin from Kraken (10X platform), so you're well within your $1,000 allocation. The remaining $700 isn't locked by Kraken—it stays in your account as available buffer for volatility or drawdowns.
+
+**Important note on margin modes**: If using Kraken's cross margin mode (default), your other $9,000 can be used to prevent liquidation on this position. If using isolated margin mode, the $9,000 is truly separated and only your allocated $1,000 (minus the $300 margin) backs this specific position.
+
+### The key insight about margin and leverage
+
+*You don't control effective leverage through margin—you control it through position size relative to your account.* The 10X platform leverage just means you only need to put up 1/10th of the position as collateral. Your actual dollar risk is determined by your position size and how far the price moves—the leverage only affects how much margin you need to hold that position.
+
+Kraken offering 10X doesn't mean you must use 10X. By choosing a smaller position size, you effectively use lower leverage even though the platform allows more.
+
+### Understanding how leverage affects losses
+
+**What really happens:**
+
+When you have a $10,000 position and the price moves 1% against you:
+- Your loss = $10,000 × 1% = **$100**
+
+That's it. The loss is based on your **position size**, not your margin.
+
+**The leverage part:**
+
+At 1X (spot): You need $10,000 margin for a $10,000 position
+- $100 loss / $10,000 margin = 1% of your margin
+
+At 10X: You need $1,000 margin for a $10,000 position
+- $100 loss / $1,000 margin = 10% of your margin
+
+**Key principle**: *The leverage doesn't "multiply" your losses—it just means you're controlling a larger position with less margin.* The same dollar movement becomes a bigger percentage of your margin, but the actual dollar loss is identical.
+
+With 10X leverage, that $100 loss represents:
+- 10% of your $1,000 margin
+- 1% of your $10,000 account
+
+**This is why position sizing relative to your total account matters more than thinking about margin requirements.**
 
 ### Kraken Pro trading fees
 
