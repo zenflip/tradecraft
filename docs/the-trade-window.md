@@ -6,8 +6,8 @@
 
 **The solution:** Identify optimum times to take trades where you can stay out of trouble and put the odds in your favor.
 
-**Kraken Pro 6H & 1H Heikin Ashi shows the direction of the trend**
-![Kraken Pro 6H & 1H Heikin Ashi](img/the-trade-window/2.png)
+**6H & 1H Heikin Ashi shows the direction of the trend**
+![6H & 1H Heikin Ashi](img/the-trade-window/2.png)
 
 **Take trades inside the upwards trend as a rising tide lifts all ships**
 ![Take trades inside the mean reversion window](img/the-trade-window/1.png)
@@ -101,7 +101,7 @@ The trade window concept combines several well-established trading principles th
 
 1. **Multi-timeframe analysis** - Very common. Traders routinely use higher timeframes for bias and lower timeframes for entries.
 
-2. **Heikin-Ashi for trend identification** - Popular among swing traders and position traders. It's built into most platforms (like TradingView, Kraken Pro) specifically because traders use it.
+2. **Heikin-Ashi for trend identification** - Popular among swing traders and position traders. It's built into most trading platforms specifically because traders use it.
 
 3. **Trading with the trend** - "The trend is your friend" is trading 101. Most successful traders prefer trending conditions over chop.
 
