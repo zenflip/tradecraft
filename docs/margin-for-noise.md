@@ -43,7 +43,7 @@ In summary:
 
 **Price distance to liquidation (lower = more fragile)**
 
-```
+```text
 2× leverage:  |<------------ 50% ------------>|
               $60,000 --------------------> $30,000 (Liquidation)
 

@@ -21,7 +21,7 @@ A comprehensive Q&A guide explaining how Kraken Pro's margin system actually wor
 
 **Your actual usage:**
 
-```
+```text
 $30,000 ÷ $300,000 = 0.1
 ```
 
@@ -40,7 +40,6 @@ If that $30,000 position is 2× leveraged, it means you're putting up $15,000 ma
 
 That's actually ideal for swing trading — plenty of buffer, near-zero liquidation risk, and still meaningful exposure.
 
-
 ## Question 2: Why is my initial margin only $3K per trade, not $15K?
 
 **Q:** I went in with $30,000 on BTCUSD and then $30,000 on ETHUSD. I thought this was 2×. However I only seem to be using an initial margin of $3,000 on each. Shouldn't that be $15,000 as I'm on 2×?
@@ -55,7 +54,7 @@ You've got:
 
 That means each position is using only 10% margin (since 10× leverage = 1/10 margin requirement).
 
-```
+```text
 $30,000 ÷ 10 = $3,000
 ```
 
@@ -65,7 +64,7 @@ That's why the system only pulled $3,000 for each trade — it's applying the ma
 
 If you wanted to be effectively 2× leveraged, you'd want each trade to use:
 
-```
+```text
 $30,000 ÷ 2 = $15,000 margin
 ```
 
@@ -105,7 +104,7 @@ You opened:
 
 **Total exposure = $60,000**
 
-```
+```text
 $60,000 ÷ $30,000 = 2× effective leverage ✅
 ```
 
@@ -149,13 +148,13 @@ You're:
 
 ### The key formula
 
-```
+```text
 Effective Leverage = Position Size ÷ Account Equity
 ```
 
 Re-arranged:
 
-```
+```text
 Position Size Needed = Account Equity × Target Leverage
 ```
 
@@ -164,7 +163,7 @@ Position Size Needed = Account Equity × Target Leverage
 - Your account equity = $30,000
 - You want ≈ 2× leverage
 
-```
+```text
 $30,000 × 2 = $60,000
 ```
 
@@ -221,12 +220,12 @@ Your liquidation levels now reflect what you wanted:
 - Kraken Pro's margin engine is dynamic, but at 3× effective leverage, that's about where liquidation sits (half your entry price ≈ liquidation)
 
 **For BTC:**
-```
+```text
 $112,000 × 0.42 ≈ $47,000 ✅
 ```
 
 **For ETH:**
-```
+```text
 $3,840 × 0.42 ≈ $1,610 ✅
 ```
 
@@ -247,7 +246,6 @@ The numbers line up exactly with your screenshot — spot on.
 You've nailed the setup. This is the real "2× feel" zone — your liquidation is about 50–60% down, giving strong exposure with a very forgiving cushion.
 
 If BTC and ETH bounce from here, you'll capture nearly 3× the spot gains with almost no liquidation anxiety.
-
 
 ## Question 6: Why such a good buffer at 3×?
 

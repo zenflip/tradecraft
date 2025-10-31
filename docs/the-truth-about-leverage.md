@@ -89,7 +89,7 @@ We'll model it roughly like this:
 
 **Likelihood of loss from normal volatility over time**
 
-```
+```text
 Risk
  ↑
 100%|                              *
@@ -133,7 +133,6 @@ The sweet spot sits around 2–3× leverage:
 **Leverage doesn't just multiply profit — it multiplies fragility.**
 [Swing trades](what-is-swing-trading.md) need durability. Scalps need precision.
 Use low leverage when time and noise work against you.
-
 
 ## Clean numeric walkthrough
 
@@ -181,7 +180,6 @@ The longer you hold a high-leverage position, the more likely you'll encounter n
 
 ## A realistic volatility example
 
-
 ### 1. BTC's typical volatility
 
 Bitcoin's daily volatility averages around 2–4%.
@@ -217,16 +215,13 @@ Volatility compounds over time — not linearly, but enough that:
 
 Low leverage buys you time, and time is what converts good ideas into profit.
 
-
 ## Real world example: crypto dump on 11.10.25
 
 Let's test this 2× liquidation buffer theory with a real market event.
 
 Look at this dump on ETHUSDT around the 11th October. If you were 2X long ETH at 4755, would you have been liquidated at 2674, the lowest price of the dump?
 
-
 ![ETHUSDT 43% price drop October 11 2025](img/high-and-low-leverage/eth-usdt-dump.png)
-
 
 ### 1. 2× Long Leverage = 50% liquidation buffer
 
@@ -259,7 +254,6 @@ The low you mentioned was $2674, so you would not have been liquidated — but y
 With 2×, you would've survived that dump, but barely.
 
 That's why for [swing trades](what-is-swing-trading.md), 2× is the sweet spot — enough size to matter, but enough buffer to ride through volatility.
-
 
 ## 2X is broadly accepted
 
@@ -330,7 +324,6 @@ Compared to 43% on ETHUSDT
 Compared to 20% on BTCUSDT
 
 ![BTC/USDT 20% price drop](img/high-and-low-leverage/btc-usdt-dump.png)
-
 
 ## Summary
 

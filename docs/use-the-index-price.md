@@ -2,7 +2,6 @@
 
 Understanding the difference between last price and index price is crucial for setting effective stop-losses.
 
-
 ## Last price
 
 **This is the most recent trade on the market.**
@@ -12,7 +11,6 @@ Understanding the difference between last price and index price is crucial for s
 - Random wicks can trigger your stop even if the broader market hasn't actually moved there
 
 **Problem:** Using "last" for your stop means a temporary wick can trigger it, taking you out of a good trade.
-
 
 ## Index price
 
@@ -24,14 +22,12 @@ Understanding the difference between last price and index price is crucial for s
 
 **Advantage:** Only a real market move — not a single exchange wick — can trigger your stop.
 
-
 ## Rule of thumb
 
 | Trade type | Price to use | Why |
 |:-----------|:-------------|:----|
 | **Swing trades** | Index price | Safer and fairer — filters out noise and wicks |
 | **Scalps or short-term trades** | Last price (optional) | Tighter precision, but more false hits |
-
 
 ## For swing trading with wide buffers
 
@@ -40,7 +36,6 @@ Since you're running 6H–12H swing trades with wide buffers:
 **Use index price for your stop-losses.**
 
 That way, only a real market move — not a single exchange wick — can take you out of your position.
-
 
 ## The bottom line
 

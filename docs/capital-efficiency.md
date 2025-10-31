@@ -22,13 +22,11 @@ Say you want $10,000 worth of BTC exposure:
 
 This frees up the rest of your cash for other trades, hedges, or yield — that's capital efficiency.
 
-
 ## Key point
 
 **Capital efficiency ≠ more risk.**
 
 *It's about deploying less capital for the same controlled risk.* If you manage stops and position sizing properly, you're not increasing your probability of ruin — you're increasing the productivity of your capital.
-
 
 ## When it becomes dangerous
 
@@ -38,11 +36,9 @@ Capital efficiency turns from **efficiency → gambling** when:
 - You skip stop-losses or hedge planning
 - You let margin risk dictate your position instead of your plan
 
-
 ## In short
 
 Capital efficiency is the **smart use of leverage to do more with less**, not reckless leverage to risk more than you should.
-
 
 ## Capital efficiency vs leverage: where it breaks down
 
@@ -57,7 +53,6 @@ Here's how capital efficiency scales with leverage, and where it stops being use
 | **5×** | 20% | 1× | 5× | –20% | 🔴 Fragile | Normal daily swings can liquidate |
 | **10×** | 10% | 1× | 10× | –10% | 🔴 High risk | Intraday volatility kills position |
 | **20×+** | 5% or less | 1× | 20× | –5% or less | ⚫ Suicide | You're trading noise, not structure |
-
 
 ## Key insights
 
@@ -74,7 +69,6 @@ Every extra step of leverage increases the probability of ruin **exponentially, 
 ### Past 3×, you're not efficient — you're fragile
 
 You can't survive ordinary drawdowns. You start needing stops, constant monitoring, and emotional fortitude.
-
 
 ## Related: should you use stops at 2× leverage?
 

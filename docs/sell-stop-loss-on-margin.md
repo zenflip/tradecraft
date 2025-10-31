@@ -21,7 +21,6 @@ That's exactly what you want when you're long on margin — you're holding borro
 "Close ETH/USD (10x)" with stop-loss at $3,839
 → Triggers a market sell once ETH hits $3,839
 
-
 ### 2. Sell limit
 
 - **Executes only** if price rises to your target
@@ -31,7 +30,6 @@ That's exactly what you want when you're long on margin — you're holding borro
 
 That's why if you accidentally use sell limit instead of sell stop, it'll either execute immediately or not protect you at all.
 
-
 ## For your margin long
 
 - **To protect downside:** use sell stop-loss (stop-market)
@@ -40,7 +38,6 @@ That's why if you accidentally use sell limit instead of sell stop, it'll either
 **You can use both at once** — Kraken lets you bracket your position:
 - Stop at $3,839
 - Limit take-profit at, say, $4,250
-
 
 ## Margin spot vs futures: different stop types
 
@@ -58,7 +55,6 @@ That means to exit or protect the position, you must **sell the actual asset**. 
 
 **✅ Correct type:** Sell stop-market (stop-loss) — triggers when price falls to your chosen level
 
-
 ### When you're using futures or perpetuals
 
 You're trading **contracts, not the asset**. Your stop is then a **close stop** on the contract itself. You don't "sell" your ETH — you close a long contract with an opposite short.
@@ -75,7 +71,6 @@ You're trading **contracts, not the asset**. Your stop is then a **close stop** 
 |:-----|:--------------|:------------------|:-------------|
 | **Margin spot (Kraken Pro)** | Borrowed BTC/ETH | Sell stop-loss | Sells your coins to repay loan |
 | **Futures/perpetuals** | Contract | Close stop order | Offsets position instantly |
-
 
 ## The bottom line
 

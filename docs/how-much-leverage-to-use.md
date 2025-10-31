@@ -142,7 +142,7 @@ Ask yourself these questions:
 
 Use the position sizing formula to calculate exact position sizes for any leverage level:
 
-```
+```text
 Position Size = (Account Size × Risk %) / (Stop Loss % × Leverage)
 ```
 

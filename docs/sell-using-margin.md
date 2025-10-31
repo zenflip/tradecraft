@@ -10,7 +10,6 @@ Can you sell using margin to take a short position like shorting futures?
 
 On Kraken Pro, you can short using margin spot trading, and it works almost the same as shorting futures — just under the hood it's different.
 
-
 ## How shorting with margin works
 
 When you click **Sell** while on margin:
@@ -25,7 +24,6 @@ Borrowing BTC → Selling it → Buying it back lower → Keeping the difference
 
 ✅ Works the same way as a futures short in profit/loss terms
 🧩 The difference: you're dealing with real borrowed assets, not paper contracts
-
 
 ## Example: shorting BTC with 3× margin
 
@@ -57,7 +55,6 @@ Borrowing BTC → Selling it → Buying it back lower → Keeping the difference
 
 - **Long on margin:** set a **Sell Stop-Loss**
 - **Short on margin:** set a **Buy Stop-Loss**
-
 
 ## The bottom line
 

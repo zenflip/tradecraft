@@ -114,7 +114,6 @@ You can scale up with leverage, but your risk stays constant.
 **Wide stop + small position + low leverage = freedom to ride the real move.**
 **Tight stop + big position + high leverage = guaranteed frustration.**
 
-
 ## Extend the logic to using margin or borrowed funds
 
 Let's extend this logic to using margin or borrowed funds (Kraken, AAVE, etc.), where leverage is built in but risk must still be controlled.

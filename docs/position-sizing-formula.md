@@ -12,7 +12,7 @@ Position sizing is the bridge between strategy and execution. You can have the p
 
 **Universal position sizing formula:**
 
-```
+```text
 Position Size = (Account Size × Risk %) / (Stop Loss Distance % × Leverage)
 ```
 
@@ -26,7 +26,7 @@ The position sizing formula answers one critical question: **How much should I b
 
 Here's the formula broken down:
 
-```
+```text
 Position Size = (Account Size × Risk %) / (Stop Loss Distance % × Leverage)
 ```
 
@@ -56,7 +56,7 @@ The formula ensures that regardless of your leverage, your actual dollar risk st
 - Leverage: 10X
 
 **Calculation**:
-```
+```text
 Position Size = ($10,000 × 1%) / (0.67% × 10)
 Position Size = $100 / 6.7%
 Position Size = $1,493
@@ -74,7 +74,7 @@ Position Size = $1,493
 - Leverage: 3X
 
 **Calculation**:
-```
+```text
 Position Size = ($10,000 × 2%) / (5% × 3)
 Position Size = $200 / 15%
 Position Size = $1,333
@@ -92,7 +92,7 @@ Position Size = $1,333
 - Leverage: 1X (spot)
 
 **Calculation**:
-```
+```text
 Position Size = ($10,000 × 1.5%) / (10% × 1)
 Position Size = $150 / 10%
 Position Size = $1,500
@@ -152,12 +152,12 @@ This inverse relationship is critical: tight stops allow larger positions, but h
 The basic formula assumes perfect execution. In reality:
 
 **Add buffer for trading costs:**
-```
+```text
 Adjusted Risk = Desired Risk % - (Entry Fee % + Exit Fee %)
 ```
 
 For a trade with 0.1% maker/taker fees:
-```
+```text
 Adjusted Risk = 1.0% - (0.1% + 0.1%) = 0.8%
 ```
 
@@ -400,7 +400,7 @@ The basic formula assumes perfect execution. In reality, fees reduce your effect
 **Adjusting for fees in risk calculation**:
 
 If you want your actual risk to be $150 after fees:
-```
+```text
 Adjusted Risk = Desired Risk + Expected Fees
 Adjusted Risk = $150 + $80 = $230
 ```
