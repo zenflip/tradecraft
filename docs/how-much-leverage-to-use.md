@@ -196,7 +196,7 @@ For comprehensive position sizing guidance including worked examples, common mis
 - Second entry: $1,750 if it drops further (remaining 50%)
 - Stop: Very wide or none ($1,500 mental stop)
 - Target: $2,400+ (25%+ gain)
-- Leverage: None (spot only) or 2X margin
+- Leverage: None (spot only) or 2X leverage
 
 **Rationale:** Uncertain bottom, building position, need flexibility to average down.
 

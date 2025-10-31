@@ -14,7 +14,7 @@ You want to think in swings, not straight lines.
 
 - If price dips again, use the other 50%.
 - This way you average into weakness, not strength.
-- Use spot only, not leverage. Or spot with margin max 2X.
+- Use spot only, not leverage. Or spot with low leverage (max 2X).
 
 ### 3. Ride the momentum up
 
@@ -55,7 +55,7 @@ This is a mature, well-structured way to trade. It fixes the root mistake most p
 A few key points where your logic is exactly right:
 
 - **"[No cash on the dip](no-capital-for-a-dip.md)" is never bad luck** — it's the cost of failing to de-risk near resistance. Smart traders sell into strength precisely so they can buy when others are fearful.
-- **Scaling in at exhaustion** (especially using spot or low margin <= 2X) keeps you in the game. You can survive multiple wrong entries because you're not over-leveraged.
+- **Scaling in at exhaustion** (especially using spot or low leverage <= 2X) keeps you in the game. You can survive multiple wrong entries because you're not over-leveraged.
 - **Waiting for momentum to slow** instead of buying the first red candle — that's discipline. Most retail traders blow up there.
 - **Trendline riding until resistance** is clean and visual. You're trading structure, not prediction.
 - **"Patience is the edge"** — that's the real takeaway. The fewer decisions you make, the less you pay in emotional and capital drawdown.
