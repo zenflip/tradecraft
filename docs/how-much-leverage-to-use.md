@@ -79,7 +79,7 @@ Use low or no leverage in these scenarios:
 
 *Different market events create vastly different volatility profiles. After major moves or during event-driven volatility, lower leverage provides the breathing room needed to survive whipsaws.*
 
-### Why It Works
+### Why it works
 
 - **Survival** - You can withstand being wrong multiple times
 - **Flexibility** - You can add more if conditions improve
@@ -112,9 +112,9 @@ Ask yourself these questions:
 
 ---
 
-## Key Mistakes to Avoid
+## Key mistakes to avoid
 
-### ❌ Don't Do This
+### ❌ Don't do this
 
 1. **High leverage on a scaling strategy**
    - You'll get liquidated before your thesis plays out
