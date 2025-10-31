@@ -85,7 +85,7 @@ That's 0.08× leverage (essentially no leverage).
 Let's say you want more exposure — 2× leverage.
 $800 × 2 = $1,600 position
 
-If price drops 25%, your loss on margin is $400.
+If price drops 25%, your leveraged loss is $400.
 That's still only 4% of your account.
 You've got plenty of room and zero chance of liquidation.
 
@@ -114,9 +114,9 @@ You can scale up with leverage, but your risk stays constant.
 **Wide stop + small position + low leverage = freedom to ride the real move.**
 **Tight stop + big position + high leverage = guaranteed frustration.**
 
-## Extend the logic to using margin or borrowed funds
+## Extend the logic to higher leverage
 
-Let's extend this logic to using margin or borrowed funds (Kraken, AAVE, etc.), where leverage is built in but risk must still be controlled.
+Let's extend this logic to higher leverage scenarios, where leverage is built in but risk must still be controlled.
 
 ### 1. Your baseline
 
@@ -145,8 +145,8 @@ Position size = (10,000 × 0.02) / 0.30
 = 200 / 0.30
 = $666
 
-So you can only open a $666 position (on margin) if you want to keep total risk at 2%.
-Even though you're "using 3× leverage," you're not overexposed — you're just borrowing efficiently.
+So you can only open a $666 position if you want to keep total risk at 2%.
+Even though you're "using 3× leverage," you're not overexposed — you're just using leverage efficiently.
 
 ### 4. Compare different setups
 
@@ -164,7 +164,7 @@ That's why professional traders use high leverage for short-term scalps, not mul
 
 ### 5. Real-world mental model
 
-- On Kraken, if you borrow 3× on a swing, treat it as borrowing efficiency, not risk.
+- When using 3× leverage on a swing, treat it as capital efficiency, not additional risk.
 - Keep your stop based on structure (e.g., under last swing low).
 - Back-calc position size so your total account risk ≤ 2%.
 - Don't use full 3× exposure — maybe 1.5×–2× effective.
@@ -219,7 +219,7 @@ If you can't monitor the trade — use a fail-safe stop just in case of exchange
 
 ### 4. Professional framing
 
-Pros call this **"trading unleveraged but margined"**.
+Pros call this **"conservative leverage"** or **"capital-efficient positioning"**.
 You're using leverage for capital efficiency, not speculation.
 
 Your goal:
