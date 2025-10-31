@@ -1,4 +1,4 @@
-## Does a stop loss help?
+# Does a stop loss help?
 
 To stop or not to stop? That is the question.
 
@@ -6,7 +6,7 @@ The problem with a stop loss is that you'll often hit the stop and then the trad
 
 That's one of the deepest frustrations in trading.
 
-### 1. Stops protect capital — but punish imperfect timing
+## 1. Stops protect capital — but punish imperfect timing
 
 - A stop loss is meant to prevent a total loss.
 - But in volatile markets (crypto especially), price almost always overshoots before reversing.
@@ -14,14 +14,14 @@ That's one of the deepest frustrations in trading.
 
 That's not bad analysis — it's a tight stop in a noisy market.
 
-### 2. Why this happens
+## 2. Why this happens
 
 - Exchanges hunt liquidity. Many traders cluster stops at obvious levels.
 - Whales push price into those zones to trigger liquidations/stops, then reverse.
 - The tighter your stop, the closer it sits to the "noise zone."
 - Combine that with high leverage → death by a thousand wicks.
 
-### 3. Low leverage solves that
+## 3. Low leverage solves that
 
 When you run 2× or 3×, you can often trade without a tight stop.
 You can:
@@ -33,7 +33,7 @@ Basically:
 **Low leverage lets your analysis play out.
 High leverage forces you to be surgically precise.**
 
-### 4. Hybrid approach
+## 4. Hybrid approach
 
 Some swing traders manage this by:
 - Using low leverage (1.5–3×).
@@ -47,7 +47,7 @@ Others skip stops entirely but use:
 
 This is less "safe" by textbook standards, but it's more realistic for volatile assets like BTC, ETH, or SOL.
 
-### 5. The core truth
+## 5. The core truth
 
 **A stop loss is a tool for leverage management, not for safety.**
 When your leverage is already low, the market itself becomes your stop.
