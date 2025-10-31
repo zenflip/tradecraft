@@ -17,7 +17,7 @@ Understanding the difference between last price and index price is crucial for s
 **This is a weighted average of major exchanges' prices.**
 
 - Much more stable and reflects the true market value
-- Liquidations and margin calls on Kraken use index price
+- Most exchanges use index price for liquidations and margin calls
 - If your stop-loss is set on index, it'll behave consistently with liquidation logic — fewer fakeouts
 
 **Advantage:** Only a real market move — not a single exchange wick — can trigger your stop.
@@ -42,4 +42,4 @@ That way, only a real market move — not a single exchange wick — can take yo
 - **Index price** = stable, consensus market value across exchanges
 - **Last price** = single exchange's most recent trade (can be noisy)
 
-For swing trading with margin, **index price is the professional choice** — it aligns with how exchanges calculate liquidations and filters out manipulation.
+For swing trading with leverage, **index price is the professional choice** — it aligns with how exchanges calculate liquidations and filters out manipulation.
