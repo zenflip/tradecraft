@@ -1,5 +1,7 @@
 # When to use high & low leverage
 
+**Note on cost efficiency:** When using leverage, futures perpetual swaps are generally cheaper than margin trading due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
+
 ## Core principle
 
 **Leverage should match conviction and clarity, not greed.**

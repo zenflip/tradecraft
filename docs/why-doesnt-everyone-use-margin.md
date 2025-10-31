@@ -1,5 +1,9 @@
 # Why doesn't everyone use margin over futures?
 
+**Note on cost efficiency:** While margin spot trading has many advantages discussed below, futures perpetual swaps are generally cheaper for leveraged trading due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
+
+---
+
 Margin spot seems cleaner and safer than perpetuals. So why isn't everyone using it?
 
 You're right to notice this. Here's why most people don't use margin — and why smart traders often do.

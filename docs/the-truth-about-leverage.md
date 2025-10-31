@@ -1,5 +1,7 @@
 # Stop losing everything: The truth about leverage and time
 
+**Note on cost efficiency:** When using leverage, futures perpetual swaps are generally cheaper than margin trading due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
+
 ### Are you using high (10X+) leverage for *everything*?
 Stop it right now. *Seriously.*
 You're going to lose *all* your money over time.

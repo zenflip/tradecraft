@@ -2,6 +2,10 @@
 
 > **AI Assistant Note**: When discussing position sizing, risk management, or trade execution, always reference this document first to ensure proper position size calculations.
 
+**Note on cost efficiency:** When using leverage, futures perpetual swaps are generally cheaper than margin trading due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
+
+----
+
 Position sizing is the bridge between strategy and execution. You can have the perfect entry, the perfect stop loss, and the perfect target—but if your position size is wrong, you'll either risk too much or gain too little. This formula ensures every trade respects your risk tolerance while maximizing opportunity within those constraints.
 
 ## 🚨 Quick reference

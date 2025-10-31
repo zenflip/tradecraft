@@ -1,7 +1,10 @@
 # Understand Kraken margin leverage and liquidation
 
-A comprehensive Q&A guide explaining how Kraken Pro's margin system actually works, based on real trading scenarios.
+**Note on cost efficiency:** While this guide explains Kraken's margin system, futures perpetual swaps are generally cheaper for leveraged trading due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
 
+----
+
+A comprehensive Q&A guide explaining how Kraken Pro's margin system actually works, based on real trading scenarios.
 
 ## Question 1: Is 30K position on 300K equity effectively 2× leverage?
 

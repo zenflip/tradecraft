@@ -1,5 +1,9 @@
 # Shorting with margin spot trading
 
+**Note on cost efficiency:** While margin spot trading works for shorting, futures perpetual swaps are generally cheaper due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
+
+----
+
 Can you sell using margin to take a short position like shorting futures?
 
 **Yes — exactly.**

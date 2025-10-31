@@ -1,7 +1,10 @@
 # Stop-loss orders on margin: sell stop vs sell limit
 
-If I'm using margin, should I use a sell stop-loss or sell limit order?
+**Note on cost efficiency:** While this guide explains margin stop-loss orders, futures perpetual swaps are generally cheaper for leveraged trading due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
 
+----
+
+If I'm using margin, should I use a sell stop-loss or sell limit order?
 
 ## Use a sell stop-loss order, not a sell limit
 

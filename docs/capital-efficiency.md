@@ -1,9 +1,12 @@
 # Capital efficiency: doing more with less
 
+**Note on cost efficiency:** When using leverage for capital efficiency, futures perpetual swaps are generally cheaper than margin trading due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
+
+----
+
 **Capital efficiency = how much work your capital does**
 
 It measures how effectively you use your money to get exposure to an asset or trade. You're not changing the risk profile of the trade — you're just using less capital to get the same exposure.
-
 
 ## Example: spot vs leverage
 
