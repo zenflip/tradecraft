@@ -4,9 +4,164 @@
 
 ----
 
+## Overview
+
+Margin isn't bad — it's just expensive when used casually.
+
+**Think of margin as a capital efficiency tool, not a profit booster.**
+
+## When margin makes sense
+
+You use margin when benefits outweigh cost:
+
+### 1. High-conviction, high-probability trades
+
+- Clear direction
+- Tight timing window
+- You expect to be in a trade briefly
+- Funding costs stay low
+- Risk-to-reward is strong
+
+### 2. Capital preservation
+
+- You want more exposure to a move without tying up all cash
+- The rest of your cash can stay in USD earning yield elsewhere or dry powder for other trades
+
+### 3. Short holdings
+
+- Minutes to hours — not days
+- Funding fees don't have time to compound
+
+### 4. Event-driven opportunities
+
+- Big news
+- Breakout from consolidation
+- Clear volatility expansion
+
+### 5. Asymmetric trades
+
+- Tiny stop
+- Big upside
+- Leverage amplifies a constrained risk idea
+
+## When margin is a trap
+
+Margin hurts you in:
+
+- Chop / sideways environments
+- Low conviction entries
+- Holding overnight or multiple days
+- Repeated small losses (fee bleed)
+- Unknown direction or volatility regime
+- High funding rates
+
+You pay more and expose yourself to liquidation, then eat death-by-a-thousand-cuts.
+
+## A simple decision rule
+
+If all three aren't true, don't use margin:
+
+- ✅ High conviction
+- ✅ Quick resolution
+- ✅ Tight downside risk
+
+If any one is missing → stay spot.
+
+## Practical examples
+
+### Good margin trade
+
+- BTC retests a key level as support
+- Trend confirmed on higher timeframe
+- Clean invalidation nearby
+- Holding < 4–8 hours
+
+→ 2× or 3× margin can increase capital efficiency without excessive funding bleed
+
+### Bad margin trade
+
+- Playing a range top
+- Entry "looks good" without a plan
+- Stop is wide
+- Might sit overnight
+
+→ You're just paying more for the same uncertainty
+
+## Final takeaway
+
+Margin is not about wanting bigger profits. It's about using more size only when risk is sharply defined.
+
+**Leverage amplifies certainty. Not the other way around.**
+
+----
+
 A comprehensive Q&A guide explaining how Kraken Pro's margin system actually works, based on real trading scenarios.
 
-## Question 1: Is 30K position on 300K equity effectively 2× leverage?
+## Question 1: Would you hold a 2X leveraged margin position without a stop loss?
+
+**Q:** Would you hold a 2X leveraged margin position without a stop loss when thinking about capital efficiency like this?
+
+**Short, direct answer:**
+
+No.
+
+Not with 2× leverage.
+Not overnight.
+Not without a hard invalidation.
+
+### Here's why
+
+With 2× margin:
+
+- Drawdowns hurt twice as fast
+- Funding keeps ticking
+- You're exposed to liquidation risk (even if far away)
+- A "small" move against you becomes capital-efficiency decay
+
+*A spot bag can ride volatility.
+A leveraged position cannot — the market taxes you for time.*
+
+### The core principle
+
+Margin is for defined-risk trades with fast resolution.
+
+If the upside is "open-ended" and you don't know where you're wrong:
+→ Stay spot.
+
+If you do know where you're wrong:
+→ Then put a stop (or conditional exit) right there.
+
+### Acceptable exception (rare)
+
+A 2× leveraged position with:
+
+- A huge cash buffer (not full size)
+- A very clear line in the sand
+- And you monitor it actively
+
+Even then…
+it is always safer — and more capital efficient over time — to pre-define the exit.
+
+### Cleaner rule for you
+
+If any of these are true → no margin:
+
+- You don't know your stop level
+- You might sleep through volatility
+- News risk > edge
+- Funding unknown
+- You're thinking "I'll manage it later"
+- You're sizing for excitement, not edge
+
+Margin + hope = liquidation.
+Margin + clarity = efficiency.
+
+### Final takeaway
+
+Leverage without a stop isn't capital efficiency.
+It's capital fragility.
+
+## Question 2: Is 30K position on 300K equity effectively 2× leverage?
 
 **Q:** If I have $300K equity and I'm allowed to trade with 10× margin, and I go in with $30K on BTCUSD, is that effectively 2× margin long?
 
@@ -40,7 +195,7 @@ If that $30,000 position is 2× leveraged, it means you're putting up $15,000 ma
 
 That's actually ideal for swing trading — plenty of buffer, near-zero liquidation risk, and still meaningful exposure.
 
-## Question 2: Why is my initial margin only $3K per trade, not $15K?
+## Question 3: Why is my initial margin only $3K per trade, not $15K?
 
 **Q:** I went in with $30,000 on BTCUSD and then $30,000 on ETHUSD. I thought this was 2×. However I only seem to be using an initial margin of $3,000 on each. Shouldn't that be $15,000 as I'm on 2×?
 
@@ -81,7 +236,7 @@ But because you used the "Margin (10×)" toggle, the exchange automatically assi
 | **BTC/USD** | $30,000 | $3,000 | 10× | 2× |
 | **ETH/USD** | $30,000 | $3,000 | 10× | 2× |
 
-## Question 3: Why is my liquidation price so far away?
+## Question 4: Why is my liquidation price so far away?
 
 This is one of those subtle, beautiful quirks of margin math.
 
@@ -140,7 +295,7 @@ You're:
 | **Liquidation buffer** | ~50% drop |
 | **Why it shows crazy low liquidation** | Exchange displays per-position 10× isolated values, but your account is cross-margin protected |
 
-## Question 4: How do I size for a 50% liquidation buffer at 2×?
+## Question 5: How do I size for a 50% liquidation buffer at 2×?
 
 **Q:** OK, so I want to up my position size then so that liquidation is a 50% drop away like I would expect for 2×.
 
@@ -194,7 +349,7 @@ To approximate that behavior on Kraken Pro:
 
 That gives you the "2× classic feel" — 50% room before wipe-out, meaningful swing exposure, still very safe.
 
-## Question 5: Now at 3× leverage with 60% buffer — how does this work?
+## Question 6: Now at 3× leverage with 60% buffer — how does this work?
 
 **Q:** OK so I added another $15K to each. That means we have $30K + $15K + $30K + $15K = $90K exposed against my $30K equity, which sounds like 3×.
 
@@ -247,7 +402,7 @@ You've nailed the setup. This is the real "2× feel" zone — your liquidation i
 
 If BTC and ETH bounce from here, you'll capture nearly 3× the spot gains with almost no liquidation anxiety.
 
-## Question 6: Why such a good buffer at 3×?
+## Question 7: Why such a good buffer at 3×?
 
 **Q:** So why am I getting such a good buffer then? I thought I was going to be on 2× and have a 50% drop as protection, but now I've got 3× in there and almost a 60% buffer. This is good but I don't understand why.
 
@@ -298,7 +453,7 @@ You expected "2× = 50% buffer," but Kraken's math gives you **3× ≈ 60% buffe
 
 **That's why your setup looks "too good"** — and it's exactly what makes Kraken cross-margin excellent for swing trades.
 
-## Question 7: Am I getting a better deal entering after a big drop?
+## Question 8: Am I getting a better deal entering after a big drop?
 
 **Q:** So when we were talking before about 2× and 50% drop, I'm getting a better deal here right? I can leverage 3× and weather a 60% drop now, after a massive big drop. Which puts the odds in my favor quite a bit?
 
@@ -351,3 +506,10 @@ You've essentially:
 **You're not just leveraged — you're strategically leveraged.**
 
 You've kept the odds stacked on the right side of variance.
+
+----
+
+## References
+
+- [Kraken Margin trading documentation](https://support.kraken.com/sections/margin-trading)
+- [How leverage works in spot transactions on margin](https://support.kraken.com/articles/203053116-how-leverage-works-in-spot-transactions-on-margin)
