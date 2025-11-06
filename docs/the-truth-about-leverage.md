@@ -307,6 +307,40 @@ It's how pros stay alive long enough to catch the big swings while retail trader
 
 With 2× leverage on a [swing trade](what-is-swing-trading.md), tight stops often hurt more than they help. See the detailed analysis in [does a stop loss help?](does-a-stop-loss-help.md#is-it-worth-using-a-stop-on-2x)
 
+## Leverage is like alcohol
+
+Think of leverage like alcohol at a party:
+
+**It amplifies what's already happening.** A fun night becomes incredible. A bad night becomes worse. Alcohol doesn't create the good time — it magnifies the conditions you're already in. Same with leverage: it doesn't create edge, it amplifies the trade you already have.
+
+**You borrow from tomorrow to feel good today.** That buzz you're feeling? Your body is pushing itself into a temporary, artificial high by depleting resources: hydration, sleep quality, liver capacity, mood stability. The cost is paid later — dehydration, toxin processing, fatigue, regret. It's a biologically real time-shifted cost.
+
+Leverage works the same way: you borrow profit potential and buying power from the future to amplify gains today, but the repayment comes when volatility swings against you. Every extra hour in a leveraged position gives randomness another chance to collect what you owe. The hangover is margin calls and liquidation.
+
+**Used responsibly, it boosts the experience.** A couple of drinks at a celebration enhances the mood. A little leverage on a high-probability setup enhances capital efficiency. Both require the right setting: good vibes for alcohol, high conviction for leverage.
+
+**Used recklessly, it wipes you out.** Too many drinks and you're unconscious. Too much leverage and your account is liquidated. Both strip away your ability to function, and recovery is brutal.
+
+### The comparison
+
+| Concept | Alcohol | Leverage |
+|---------|---------|----------|
+| **What it does** | Boosts the feeling | Boosts position size |
+| **Required setting** | Already good vibes | Already high-probability setup |
+| **Risk** | Hangover / regret | Margin call / liquidation |
+| **Responsible use** | Pace yourself | Small leverage, tight stops |
+| **Abuse outcome** | Unconscious | Account wiped |
+| **What it gives you** | Liquid courage | Position courage |
+| **The bill** | Tomorrow morning | Next volatility spike |
+
+### The kicker
+
+<mark>**Alcohol reveals your bad decisions faster. Leverage does too.**</mark>
+
+If you're at a party making questionable choices, alcohol accelerates the consequences. If you're in a bad trade with weak conviction, leverage accelerates the damage. Both expose what was already wrong — they just make it obvious faster.
+
+**The bottom line:** Leverage is liquid courage for your trade — fun now, hangover later. Use it to amplify edge, not to manufacture excitement. And just like alcohol, if you need more and more to feel anything, you're not trading anymore — you're chasing a high that always ends in a crash.
+
 ## Alts are much riskier
 
 Altcoins can still wipe you out, even with 2× leverage. With 2×, you get a 50% buffer for liquidation, but many altcoins drop 60–80% in flash crashes or delistings. A 70% drop in AVAX would have liquidated a 2× long. Luna, FTT, and many others have dropped to almost nothing overnight. **The more you move away from BTC and ETH, the more your "safe" 2× leverage turns into a bet.**
