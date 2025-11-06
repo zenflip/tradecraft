@@ -2,7 +2,7 @@
 
 **Note on cost efficiency:** When using leverage, futures perpetual swaps are generally cheaper than margin trading due to lower fees. For a detailed cost comparison, see [trading-fees-margin-vs-futures.md](trading-fees-margin-vs-futures.md).
 
-### Are you using high (10X+) leverage for *everything*?
+### Are you using high (10x+) leverage for *everything*?
 Stop it right now. *Seriously.*
 You're going to lose *all* your money over time.
 Read below to find out why.
@@ -219,7 +219,7 @@ Low leverage buys you time, and time is what converts good ideas into profit.
 
 Let's test this 2× liquidation buffer theory with a real market event.
 
-Look at this dump on ETHUSDT around the 11th October. If you were 2X long ETH at 4755, would you have been liquidated at 2674, the lowest price of the dump?
+Look at this dump on ETHUSDT around the 11th October. If you were 2x long ETH at 4755, would you have been liquidated at 2674, the lowest price of the dump?
 
 ![ETHUSDT 43% price drop October 11 2025](img/high-and-low-leverage/eth-usdt-dump.png)
 
@@ -255,9 +255,9 @@ With 2×, you would've survived that dump, but barely.
 
 That's why for [swing trades](what-is-swing-trading.md), 2× is the sweet spot — enough size to matter, but enough buffer to ride through volatility.
 
-## 2X is broadly accepted
+## 2x is broadly accepted
 
-The 2× leverage is broadly accepted among experienced traders, quant funds, and risk managers who trade volatile assets like crypto or commodities.
+The 2x leverage is broadly accepted among experienced traders, quant funds, and risk managers who trade volatile assets like crypto or commodities.
 
 Here's where it comes from:
 
@@ -361,8 +361,8 @@ Compared to 20% on BTCUSDT
 
 ## Summary
 
-Use low leverage (2-3X max) for [swing trades](what-is-swing-trading.md) — you have conviction about direction  (support to resistance), but time introduces uncertainty and volatility that can shake you out before your thesis plays out. Certainty decreases over time even when your structural analysis is solid.
+Use low leverage (2-3x max) for [swing trades](what-is-swing-trading.md) — you have conviction about direction  (support to resistance), but time introduces uncertainty and volatility that can shake you out before your thesis plays out. Certainty decreases over time even when your structural analysis is solid.
 
-Use high leverage (up to 100X) for small intra-day scalp trades (minutes to hours) where you have more certainty and the edge is in your favour.
+Use high leverage (up to 10-50x) for small intra-day scalp trades (minutes to hours) where you have more certainty and the edge is in your favour.
 
 The closer you are to BTC and ETH the safer you are. The more you move into alt territory, the risk (and reward) goes up exponentially!
