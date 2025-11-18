@@ -1,35 +1,47 @@
-# Bodies vs wicks: What to use when drawing trend lines
+# How to draw trendlines
 
-Here's the rule of thumb traders use:
+## When to use wicks vs candle closes
 
-## 1. For structure/trend lines
+**Source: Daniel from Chart Champions**
 
-**→ Use candle bodies as your anchor.**
+### Core rule
 
-They show where price actually closed — consensus value between buyers and sellers.
+Candlesticks are needed for marking out trendlines and support/resistance lines:
 
-**Wicks are emotion; bodies are agreement.**
+- **For diagonal trendlines → use the wick of the candle**
+- **For horizontal support & resistance (daily, weekly, monthly) → use closes**
 
-## 2. For channels and zones
+### Why this matters
 
-**→ Include wicks to define the range of reaction.**
+**Wicks for trendlines:**
+- Diagonal trends capture price movement over time
+- Wicks show where price tested and rejected
+- Represents the full range of price discovery during the trend
 
-Wicks show where liquidity lives — where price overextended before snapping back.
+**Closes for horizontal levels:**
+- Horizontal support/resistance marks consensus value
+- Closing prices show where buyers and sellers agreed
+- More reliable on higher timeframes (daily, weekly, monthly)
+- Bodies show commitment; wicks show emotion
 
-## 3. Practical method
+### Practical method
 
-- **Draw your main trend line using body-to-body touches.**
-- **Then widen it slightly to create a zone or channel that includes wicks.**
-  - (That's your "noise tolerance.")
+1. **Drawing diagonal trendlines:**
+   - Connect the wicks (highs for downtrends, lows for uptrends)
+   - These show where price touched and bounced
+
+2. **Drawing horizontal support/resistance:**
+   - Use candle closes on daily, weekly, or monthly charts
+   - Focus on where price closed, not where it spiked
 
 ---
 
 ## Summary
 
-| Element | Purpose |
-|---------|---------|
-| **Bodies** | Precision |
-| **Wicks** | Reaction zone |
-| **Both together** | Clarity |
+| Type | Use | Reason |
+|------|-----|--------|
+| **Diagonal trendlines** | Wicks | Full price rejection range |
+| **Horizontal S/R** | Closes | Consensus value/agreement |
+| **Timeframe** | Daily/Weekly/Monthly | For horizontal levels |
 
-**Most pros say:** "Respect the bodies, observe the wicks."
+**Remember:** Wicks for trends, closes for levels.
